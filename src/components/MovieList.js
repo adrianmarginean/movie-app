@@ -4,7 +4,7 @@ import '../App.css';
 
 const MovieList = () => {
   const [movies, setMovies] = useState([]);
-  const MOVIE_API_URL = 'movie-api-test.azurewebsites.net';
+  const MOVIE_API_URL = 'https://movie-api-test.azurewebsites.net';
 
   useEffect(() => {
     // Fetch movie data from the backend API
